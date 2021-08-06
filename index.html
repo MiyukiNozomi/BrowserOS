@@ -8,8 +8,8 @@
 
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="/src/taskbar.js"></script>
-        <script src="/src/windowDrag.js"></script>
+        <script src="src/taskbar.js"></script>
+        <script src="src/windowDrag.js"></script>
     </head>
     <body style="--fsAncillary:var(--use); cursor: default;">
         <div class="window" id="testwindow" style="left: 147px;top: 218px;width: 500px; height:180px;">
@@ -18,12 +18,12 @@
                 <img src="https://th.bing.com/th/id/R.299674622d67278b502348e3d5fc0af1?rik=EzunpCs6HSWIJQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-RudPWHSatkM%2fVCuvUFWd_LI%2fAAAAAAAAAjg%2fqRgIgmsng5I%2fs1600%2fchromium_icon.png&ehk=WOXAiIIu6l2d2ebBXZ7lbYEfMeHdEp%2foBV1XhpE3JK8%3d&risl=&pid=ImgRaw&r=0"/>
                 <p>BrowserOS</p>
                 <ul class="window_control">
-                    <li class="min"><img src="/res/minimize-unfocused.png"  onmouseover="this.src='/res/minimize-focused.png'"
-                        onmouseout="this.src='/res/minimize-unfocused.png';"></li>
-                    <li class="max" onclick="console.log('this.parent.parent.parent;');"><img src="/res/maximize-unfocused.png"  onmouseover="this.src='/res/maximize-focused.png'"
-                        onmouseout="this.src='/res/maximize-unfocused.png';"></li>
-                    <li class="close"><img src="/res/close-unfocused.png"  onmouseover="this.src='/res/close-focused.png'"
-                        onmouseout="this.src='/res/close-unfocused.png';"></li>
+                    <li class="min"><img src="res/minimize-unfocused.png"  onmouseover="this.src='res/minimize-focused.png'"
+                        onmouseout="this.src='res/minimize-unfocused.png';"></li>
+                    <li class="max" onclick="console.log('this.parent.parent.parent;');"><img src="res/maximize-unfocused.png"  onmouseover="this.src='res/maximize-focused.png'"
+                        onmouseout="this.src='res/maximize-unfocused.png';"></li>
+                    <li class="close"><img src="res/close-unfocused.png"  onmouseover="this.src='res/close-focused.png'"
+                        onmouseout="this.src='res/close-unfocused.png';"></li>
                 </ul>
             </div>
             <div class="win-content">
@@ -37,11 +37,11 @@
             <div id="start">
                 <div id="start_menu" style="display: none;">
                     <form id="search" method="dialog">
-                        <label id="search_icon"><img src="/res/search.png"></label>
+                        <label id="search_icon"><img src="res/search.png"></label>
                         <input type="text" name="search_bar" id="search_bar" placeholder="Search">
                     </form>
                 </div>
-            <img onclick="onClick()" src="/res/menu.png"></div>
+            <img onclick="onClick()" src="res/menu.png"></div>
         </div>
         <script>
             dragElement(document.getElementById("testwindow"));

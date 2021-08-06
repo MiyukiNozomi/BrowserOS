@@ -1,0 +1,20 @@
+body {
+    min-height: 100%;
+    color: #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+
+    background-image: url('http://yesofcorsa.com/wp-content/uploads/2016/11/4K-Wallpapers-7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    cursor: url('/res/aero_arrow_black.cur');
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

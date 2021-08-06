@@ -1,0 +1,87 @@
+.window {
+    position: absolute;
+    border: 1px solid rgba(49, 49, 49, 0.151);
+}
+
+.window {
+    -webkit-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    -moz-box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+    box-shadow: 15px 0px 10px -10px rgba(0,0,0,0.51);
+}
+
+.win-title {   
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 100%;
+
+    font-style: normal;
+
+    color: #131313;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.win-title img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 4;
+    margin-top: 4;
+}
+
+.win-title p {
+    margin: 0;
+    position: relative;
+    top: 4;
+    left: 5;
+    font-size: 15;
+}
+
+.win-title li {
+    margin: 0;
+    float: left;
+}
+
+.win-title ul li {
+    list-style: none;
+}
+
+.win-title ul.window_control {
+    right: 1px;
+    overflow: hidden;
+}
+
+.win-title ul.window_control {
+    position: absolute;
+    float: right;
+    top: -15;
+    right: 6;
+}
+.win-title ul li img {
+    width: 24px;
+    height: 24px;
+}
+
+.win-title {
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2px);
+}
+
+.win-content {
+    position:absolute;
+    top: 31px;
+    margin: 0;
+    background-color: white;
+    color: #333333;
+    height: calc(100% - 31px);
+    width: 100%;
+}
+
+.win-content-internal {
+    margin-left: 5;
+}
+
+.window {
+    border-radius: 5px;
+}
